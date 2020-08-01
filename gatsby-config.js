@@ -9,8 +9,10 @@ module.exports = {
   siteMetadata: {
     title: `ESSENTIALS`,
     description: `おいしい食材と食事を探求するサイト`,
-    lang: 'ja',
-    siteUrl:'https://wonderful-rosalind-f4a081.netlify.app/',
+    lang: `ja`,
+    siteUrl:`https://wonderful-rosalind-f4a081.netlify.app/`,
+    locale: `ja_JP`,
+    fbappid: `XXXXXXXXXXXXXXXXX`,
   },
   plugins: [
     `gatsby-transformer-sharp`,
