@@ -10,7 +10,7 @@ module.exports = {
     title: `ESSENTIALS`,
     description: `おいしい食材と食事を探求するサイト`,
     lang: `ja`,
-    siteUrl:`https://wonderful-rosalind-f4a081.netlify.app/`,
+    siteUrl: `https://wonderful-rosalind-f4a081.netlify.app/`,
     locale: `ja_JP`,
     fbappid: `XXXXXXXXXXXXXXXXX`,
   },
@@ -18,20 +18,20 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve:'gatsby-source-filesystem',
-      options:{
-        name:`images`,
-        path:`${__dirname}/src/images/`,
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
       },
     },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name:`ESSENTIALS エッセンシャルズ`,
-        short_name:`ESSENTIALS`,
-        start_url:`/`,
-        background_color:`#ffffff`,
+        name: `ESSENTIALS エッセンシャルズ`,
+        short_name: `ESSENTIALS`,
+        start_url: `/`,
+        background_color: `#ffffff`,
         theme_color: `#477294`,
         display: `standalone`,
         icon: `src/images/icon.png`
@@ -39,7 +39,7 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     {
-      resolve:`gatsby-source-contentful`,
+      resolve: `gatsby-source-contentful`,
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
